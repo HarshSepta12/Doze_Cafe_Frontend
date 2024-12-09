@@ -1,0 +1,170 @@
+.bgc {
+    background-image: url('/images/banner-bg.png');
+    background-position:center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+ /* width: 100%; */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .left-section img {
+    height: 35px;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .right-section li {
+    cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+  }
+  
+  .right-section li:hover {
+    text-decoration: underline coral;
+  }
+  
+  .right-section svg {
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+
+ .mar-2{
+    margin-top: 25rem !important;
+  
+ }
+ .mar-2 h1{
+  font-size: 3rem;
+ }
+ .mug{
+  margin-left: 8rem;
+ }
+
+.writen-content{
+margin-top: 9rem !important;
+}
+.writen-content h1{
+  font-size: 6rem;
+  font-weight: bolder;
+}
+.writen-content p{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(230, 97, 8);
+}
+.button{
+  margin-top: 25px;
+}
+.btn{
+  width: 200px !important;
+  background-color: brown !important;
+  
+
+}
+.btn2{
+  margin-left: 10px !important;
+}
+
+.text-center h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card-btn{
+  background-color: none !important;
+  border: 1px solid  rgb(230, 97, 8);
+  border-radius: 10px;
+  color: rgb(175, 117, 8);
+  font-weight: 600;
+  width: 175px !important;
+  height: 50px;
+  margin: auto;
+  transition: all 1s ease-in-out 0.02s;
+  margin-bottom: 20px;
+}
+
+.card-btn:hover{
+  border: 1px solid  rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+ 
+                            /*--------------------- media Query  --------------------------*/
+  @media (max-width: 768px) {
+    .right-section {
+      gap: 15px;
+      font-size: 16px;
+    }
+  
+    .left-section {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .right-section {
+      display: flex;
+      gap: 15px;
+      font-size: 16px;
+    }
+  
+    .bgc {
+      height: 70vh; 
+    }
+  
+    nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .left-section img {
+      height: 30px; 
+    }
+  
+    .right-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .right-section li {
+      font-size: 14px;
+    }
+  
+    .right-section svg {
+      font-size: 20px;
+    }
+  }
+  
