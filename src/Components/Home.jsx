@@ -23,7 +23,8 @@ const Home = () => {
     {
       id: 1,
       image: 'public/images/banner-img.png',
-      content: 'more-or-less normal distribution of letters, as opposed to using',
+      content:
+        'more-or-less normal distribution of letters, as opposed to using',
     },
     {
       id: 2,
@@ -61,7 +62,7 @@ const Home = () => {
           <div className="row marg">
             {/* First col - Navigation buttons */}
             <div className="col-md-2 child-marg">
-              <button onClick={handlePrev}>
+              <button onClick={handlePrev} style={{ marginTop: '26rem' }}>
                 <TiArrowLeftOutline />
               </button>
               <button onClick={handleNext}>
@@ -85,7 +86,7 @@ const Home = () => {
                 <h1>coffee</h1>
                 <p>Tasty Of DozeCafe</p>
                 <span className="text-secondary">
-                 {Slides[activeIndex].content}
+                  {Slides[activeIndex].content}
                 </span>
               </div>
               <div className="button">
@@ -95,8 +96,6 @@ const Home = () => {
                 </button>
               </div>
             </div>
-
-            {/* Second col - Displaying the active slide */}
           </div>
         </div>
 
@@ -175,6 +174,41 @@ const Home = () => {
                 </div>
                 <button className="card-btn">READ MORE</button>
               </div>
+            </div>
+          </div>
+
+          <div className="row">
+          <div className="col-md-12 mt-5 text-center ">
+            <h2>About Our Shop</h2>
+            <img src="images/bulit-icon.png" alt="" />
+          </div>
+          </div>
+          <div className="row mb-5">
+            <div className="col-md-6 pos-relative p-5 m-auto ">
+            <img
+                src="/public/images/about-img.png"
+                className="about-img"
+                alt="About-img"
+                width={870}
+                height={500}
+              
+              />
+       
+                <div className="shadow-paragraph">
+                  <h3>Coffee distribution '</h3>
+                 <p className='fs-6 fw-1'>
+                 has a more-or-less normal distribution of letters, as opposed
+                  to using 'Content here, content here', making it look like
+                  readable English. Many desktop publishing packages and web
+                  page editorhas a more-or-less normal distribution of letters,
+                  as opposed to using 'Content here, content here', making it
+                  look like readable English. Many desktop publishing packages
+                  and web page editor
+                 </p>
+                  <button className="card-btn mt-4">READ MORE</button>
+                </div>
+                
+             
             </div>
           </div>
         </div>
