@@ -9,6 +9,9 @@
     position: relative;
  /* width: 100%; */
   }
+  .container-fluid{
+    position: relative;
+  }
   
   nav {
     display: flex;
@@ -52,16 +55,12 @@
   }
 
 
- .mar-2{
-    margin-top: 25rem !important;
+.child-marg{
+  margin-top: 25rem;
   
- }
- .mar-2 h1{
-  font-size: 3rem;
- }
- .mug{
-  margin-left: 8rem;
- }
+}
+
+
 
 .writen-content{
 margin-top: 9rem !important;
@@ -113,6 +112,25 @@ margin-top: 9rem !important;
 }
 
 
+/* Slider Styling chatgpt active class*/
+.slider-container {
+  position: relative;
+}
+
+.slide-item {
+  display: block;
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
 
 
 
