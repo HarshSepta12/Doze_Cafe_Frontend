@@ -178,37 +178,79 @@ const Home = () => {
           </div>
 
           <div className="row">
-          <div className="col-md-12 mt-5 text-center ">
-            <h2>About Our Shop</h2>
-            <img src="images/bulit-icon.png" alt="" />
-          </div>
+            <div className="col-md-12 mt-5 text-center ">
+              <h2>About Our Shop</h2>
+              <img src="images/bulit-icon.png" alt="" />
+            </div>
           </div>
           <div className="row mb-5">
             <div className="col-md-6 pos-relative p-5 m-auto ">
-            <img
+              <img
                 src="/public/images/about-img.png"
                 className="about-img"
                 alt="About-img"
                 width={870}
                 height={500}
-              
               />
-       
-                <div className="shadow-paragraph">
-                  <h3>Coffee distribution '</h3>
-                 <p className='fs-6 fw-1'>
-                 has a more-or-less normal distribution of letters, as opposed
+
+              <div className="shadow-paragraph">
+                <h3>Coffee distribution '</h3>
+                <p className="fs-6 fw-1">
+                  has a more-or-less normal distribution of letters, as opposed
                   to using 'Content here, content here', making it look like
                   readable English. Many desktop publishing packages and web
                   page editorhas a more-or-less normal distribution of letters,
                   as opposed to using 'Content here, content here', making it
                   look like readable English. Many desktop publishing packages
                   and web page editor
-                 </p>
-                  <button className="card-btn mt-4">READ MORE</button>
+                </p>
+                <button className="card-btn mt-4">READ MORE</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="row bg-client">
+            <div className="col-md-12">
+              <h2 className=" font-cust">WHAT SAYS CUSTOMERS</h2>
+              <div className="col-md-12 text-center ">
+                <img src="images/bulit-icon.png" alt="" />
+              </div>
+            </div>
+            <div className="col-md-12 ">
+              <div className="first-client">
+                <img src="/public/images/client-img1.png" alt="client1" width={150}/>
+                <div>
+                <h4> Joy Moark</h4>
+                <p>
+                  now use Lorem Ipsum as their default model text, and a search
+                  for 'lorem ipsum' will uncover many web sites still in their
+                  infancynow use Lorem Ipsum as their default model text,
+                </p>
+                </div>
+              </div>
+              <div className="first-client">
+                <img src="/public/images/client-img2.png" alt="client1" width={150}/>
+                <div>
+                <h4> Joy Moark</h4>
+                <p>
+                  now use Lorem Ipsum as their default model text, and a search
+                  for 'lorem ipsum' will uncover many web sites still in their
+                  infancynow use Lorem Ipsum as their default model text,
+                </p>
+                </div>
+              </div>
+              <div className="first-client">
+                <img src="/public/images/client-img3.png" alt="client1" width={150}/>
+                <div>
+                <h4> Joy Moark</h4>
+                <p>
+                  now use Lorem Ipsum as their default model text, and a search
+                  for 'lorem ipsum' will uncover many web sites still in their
+                  infancynow use Lorem Ipsum as their default model text,
+                </p>
                 </div>
                 
-             
+              </div>
             </div>
           </div>
         </div>
