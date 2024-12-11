@@ -216,40 +216,106 @@ const Home = () => {
                 <img src="images/bulit-icon.png" alt="" />
               </div>
             </div>
-            <div className="col-md-12 ">
+            <div className="col-md-12  client-style">
               <div className="first-client">
-                <img src="/public/images/client-img1.png" alt="client1" width={150}/>
+                <img
+                  src="/public/images/client-img1.png"
+                  alt="client1"
+                  width={150}
+                />
                 <div>
-                <h4> Joy Moark</h4>
-                <p>
-                  now use Lorem Ipsum as their default model text, and a search
-                  for 'lorem ipsum' will uncover many web sites still in their
-                  infancynow use Lorem Ipsum as their default model text,
-                </p>
+                  <h4> Joy Moark</h4>
+                  <p>
+                    now use Lorem Ipsum as their default model text, and a
+                    search for 'lorem ipsum' will uncover many web sites still
+                    in their infancynow use Lorem Ipsum as their default model
+                    text,
+                  </p>
                 </div>
               </div>
               <div className="first-client">
-                <img src="/public/images/client-img2.png" alt="client1" width={150}/>
+                <img
+                  src="/public/images/client-img2.png"
+                  alt="client1"
+                  width={150}
+                />
                 <div>
-                <h4> Joy Moark</h4>
-                <p>
-                  now use Lorem Ipsum as their default model text, and a search
-                  for 'lorem ipsum' will uncover many web sites still in their
-                  infancynow use Lorem Ipsum as their default model text,
-                </p>
+                  <h4> Joy Moark</h4>
+                  <p>
+                    now use Lorem Ipsum as their default model text, and a
+                    search for 'lorem ipsum' will uncover many web sites still
+                    in their infancynow use Lorem Ipsum as their default model
+                    text,
+                  </p>
                 </div>
               </div>
               <div className="first-client">
-                <img src="/public/images/client-img3.png" alt="client1" width={150}/>
+                <img
+                  src="/public/images/client-img3.png"
+                  alt="client1"
+                  width={150}
+                />
                 <div>
-                <h4> Joy Moark</h4>
-                <p>
-                  now use Lorem Ipsum as their default model text, and a search
-                  for 'lorem ipsum' will uncover many web sites still in their
-                  infancynow use Lorem Ipsum as their default model text,
-                </p>
+                  <h4> Joy Moark</h4>
+                  <p>
+                    now use Lorem Ipsum as their default model text, and a
+                    search for 'lorem ipsum' will uncover many web sites still
+                    in their infancynow use Lorem Ipsum as their default model
+                    text,
+                  </p>
                 </div>
-                
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className=" font-cust">OUR BLOG</h2>
+              <div className="col-md-12 text-center ">
+                <img src="images/bulit-icon.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="row mt-5 d-flex justify-content-center align-items-center gap-2 mb-5">
+            <div className="col-md-4 col-sm-12 ">
+              <div className="blog1 ">
+                <div className="blogImg1 ">
+                  <img src="/public/images/blog-img2.png" alt="blogimg1" />
+                  <h3 className="content-padding decoration">
+                    PREP TECHNIQUES COFFEE
+                  </h3>
+                  <p className="content-padding">
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    moredistracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more
+                  </p>
+                </div>
+                <div className="buttonReadMore">
+                  <button className="card-btn mt-4 ">READ MORE</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12 ">
+              <div className="blog1 ">
+                <div className="blogImg1 ">
+                  <img src="/public/images/blog-img1.png" alt="blogimg1" />
+                  <h3 className="content-padding decoration">
+                    PREP TECHNIQUES COFFEE
+                  </h3>
+                  <p className="content-padding">
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    moredistracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more
+                  </p>
+                </div>
+                <div className="buttonReadMore">
+                  <button className="card-btn mt-4 ">READ MORE</button>
+                </div>
               </div>
             </div>
           </div>
